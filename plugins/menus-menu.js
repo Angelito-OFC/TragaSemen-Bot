@@ -332,7 +332,9 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
 ┃╭─────────────────
 ┃│𝑭𝒓𝒂𝒔𝒆𝒔-𝑻𝒆𝒙𝒕𝒐𝒔
 ┃├────────────────╯
-┃│
+┃│💌 𝒑𝒊𝒓𝒐𝒑𝒐
+┃│💌 𝒄𝒐𝒏𝒔𝒆𝒋𝒐
+┃│💌 𝒇𝒓𝒂𝒔𝒆𝒓𝒐𝒎𝒂𝒏𝒕𝒊𝒄𝒂
 ┃╰─────────────────
 ┗━═━═━═━═━═━═━═━═━═━═┛
 
@@ -341,87 +343,79 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
 ┃╭─────────────────
 ┃│𝑩𝒖𝒔𝒄𝒂𝒅𝒐𝒓𝒆𝒔
 ┃├────────────────╯
-┃│
+┃│🔍 𝒙𝒏𝒙𝒙𝒔𝒆𝒂𝒓𝒄𝒉
+┃│🔍 𝒈𝒐𝒐𝒈𝒍𝒆 
+┃│🔍 𝒍𝒆𝒕𝒓𝒂
+┃│🔍 𝒘𝒊𝒌𝒊𝒑𝒆𝒅𝒊𝒂
+┃│🔍 𝒚𝒕𝒔𝒆𝒂𝒓𝒄𝒉
+┃│🔍 𝒑𝒍𝒂𝒚𝒔𝒕𝒐𝒓𝒆
+┃│🔍 𝒎𝒆𝒓𝒄𝒂𝒅𝒐𝒍𝒊𝒃𝒓𝒆
+┃│🔍 𝒑𝒐𝒓𝒏𝒉𝒖𝒃𝒔𝒆𝒂𝒓𝒄𝒉
 ┃╰─────────────────
 ┗━═━═━═━═━═━═━═━═━═━═┛
- ╭━〔 🈴 𝐃𝐄𝐒𝐂𝐀𝐑𝐆𝐀𝐒 🈴 〕
-
- ╰━━━━━━━━━━━━
 
 
-╭━〔 👀 𝐂𝐎𝐍𝐕𝐄𝐑𝐓𝐈𝐃𝐎𝐑𝐄𝐒 👀 〕*
+┏━═━═━═━═━═━═━═━═━═━═┓
+┃╭─────────────────
+┃│𝑯𝒆𝒓𝒓𝒂𝒎𝒊𝒆𝒏𝒕𝒂𝒔
+┃├────────────────╯
+┃│🦦 𝒄𝒍𝒊𝒎𝒂
+┃│🦦 𝒂𝒇𝒌
+┃│🦦 𝒐𝒄𝒓
+┃│🦦 𝒄𝒂𝒍𝒄
+┃│🦦 𝒅𝒆𝒍
+┃│🦦 𝒘𝒉𝒂𝒕𝒎𝒖𝒔𝒊𝒄
+┃│🦦 𝒒𝒓𝒄𝒐𝒅𝒆
+┃│🦦 𝒕𝒓𝒂𝒅𝒖𝒄𝒊𝒓
+┃╰─────────────────
+┗━═━═━═━═━═━═━═━═━═━═┛
 
- ╰━━━━━━━━━━━━
 
-*╭━〔 ♓ 𝐄𝐅𝐄𝐂𝐓𝐎𝐒 𝐘 𝐋𝐎𝐆𝐎𝐒 ♓ 〕*
+┏━═━═━═━═━═━═━═━═━═━═┓
+┃╭─────────────────
+┃│𝑬𝒄𝒐𝒏𝒐𝒎𝒊𝒂
+┃├────────────────╯
+┃│💰 𝒗𝒆𝒓𝒊𝒇𝒊𝒄𝒂𝒓
+┃│💰 𝒖𝒏𝒓𝒆𝒈
+┃│💰 𝒎𝒊𝒏𝒂𝒓
+┃│💰 𝒃𝒖𝒚
+┃│💰 𝒘𝒐𝒓𝒌
+┃│💰 𝒎𝒆𝒏𝒅𝒊𝒈𝒂𝒓
+┃│💰 𝒕𝒓𝒂𝒏𝒔𝒇𝒆𝒓
+┃╰─────────────────
+┗━═━═━═━═━═━═━═━═━═━═┛
 
- ╰━━━━━━━━━━━
-
-*╭━〔 💌 𝐅𝐑𝐀𝐒𝐄𝐒 𝐘 𝐓𝐄𝐗𝐓𝐎𝐒 💌〕*
-
- ╰━━━━━━━━━━━━
-
- ╭━〔 🔍 𝐁𝐔𝐒𝐂𝐀𝐃𝐎𝐑𝐄𝐒 ✨  〕*
-xnxxsearch*
-google 
-letra
-wikipedia*
-ytsearch*
-playstore*
-mercadolibre*
-pornhubsearch*
- ╰━━━━━━━━━━━━
-
- ╭━〔 🌝 𝐇𝐄𝐑𝐑𝐀𝐌𝐈𝐄𝐍𝐓𝐀𝐒 🌝 〕
-*┃➤ 🍃 ${usedPrefix}clima*
-*┃➤ 🍃 ${usedPrefix}afk*
-*┃➤ 🍃 ${usedPrefix}ocr*
-*┃➤ 🍃 ${usedPrefix}calc*
-*┃➤ 🍃 ${usedPrefix}del*
-*┃➤ 🍃 ${usedPrefix}whatmusic*
-*┃➤ 🍃 ${usedPrefix}qrcode*
-*┃➤ 🍃 ${usedPrefix}traducir*
- ╰━━━━━━━━━━━━
-
-*╭━〔 💎 𝐄𝐂𝐎𝐍𝐎𝐌𝐈𝐀𝐒 💎 〕*
-*┃➤ 🍁 ${usedPrefix}verificar*
-*┃➤ 🍁 ${usedPrefix}unreg*
-*┃➤ 🍁 ${usedPrefix}minar*
-*┃➤ 🍁 ${usedPrefix}buy*
-*┃➤ 🍁 ${usedPrefix}work*
-*┃➤ 🍁 ${usedPrefix}mendigar*
-*┃➤ 🍁 ${usedPrefix}transfer*
- ╰━━━━━━━━━━━━
  *╔══ ≪ FUNCIONES OWNERS ≫ ══╗*
-*║* 💎➺ _${usedPrefix}join *enlace*_
-*║* 💎➺ _${usedPrefix}unete *enlace*_
-*║* 💎➺ _${usedPrefix}dardiamantes *cantidad*_
-*║* 💎➺ _${usedPrefix}darxp *cantidad*_
-*║* 💎➺ _${usedPrefix}dargatacoins *cantidad*_
-*║* 💎➺ _${usedPrefix}addprem | userpremium *@tag* *cantidad*_
-*║* 💎➺ _${usedPrefix}addprem2 | userpremium2 *@tag* *cantidad*_
-*║* 💎➺ _${usedPrefix}addprem3 | userpremium3 *@tag* *cantidad*_
-*║* 💎➺ _${usedPrefix}addprem4 | userpremium4 *@tag* *cantidad*_
-*║* 💎➺ _${usedPrefix}idioma | language_
-*║* 💎➺ _${usedPrefix}cajafuerte_
-*║* 💎➺ _${usedPrefix}comunicar | broadcastall | bc *texto*_
-*║* 💎➺ _${usedPrefix}broadcastchats | bcc *texto*_
-*║* 💎➺ _${usedPrefix}comunicarpv *texto*_
-*║* 💎➺ _${usedPrefix}broadcastgc *texto*_
-*║* 💎➺ _${usedPrefix}comunicargrupos *texto*_
-*║* 💎➺ _${usedPrefix}borrartmp | cleartmp_
-*║* 💎➺ _${usedPrefix}delexp *@tag*_
-*║* 💎➺ _${usedPrefix}deloptimuscoins *@tag*_
-*║* 💎➺ _${usedPrefix}deldiamantes *@tag*_
-*║* 💎➺ _${usedPrefix}reiniciar | restart_
-*║* 💎➺ _${usedPrefix}Actualizar | update_
-*║* 💎➺ _${usedPrefix}addprem | +prem *@tag*_
-*║* 💎➺ _${usedPrefix}delprem | -prem *@tag*_
-*║* 💎➺ _${usedPrefix}listapremium | listprem_
-*║* 💎➺ _${usedPrefix}añadirdiamantes *@tag cantidad*_
-*║* 💎➺ _${usedPrefix}añadirxp *@tag cantidad*_
-*║* 💎➺ _${usedPrefix}añadircoins *@tag cantidad*_
-*╚══ ≪ •❈• ≫ ══╝*`.trim();
+join enlace
+unete enlace
+dardiamantes cantidad
+darxp cantidad
+dargatacoins cantidad
+addprem  @tag cantidad
+addprem2 @tag cantidad
+addprem3 @tag cantidad
+addprem4 @tag cantidad
+idioma | language
+cajafuerte
+comunicar | broadcastall | bc texto
+broadcastchats | bcc texto
+comunicarpv texto
+broadcastgc texto
+comunicargrupos texto
+borrartmp | cleartmp
+delexp @tag
+deloptimuscoins @tag
+deldiamantes @tag
+reiniciar | restart
+Actualizar | update
+addprem | +prem @tag
+delprem | -prem @tag
+listapremium | listprem
+añadirdiamantes @tag cantidad
+añadirxp @tag cantidad
+añadircoins @tag cantidad
+
+`.trim();
     if (m.isGroup) {
       // await conn.sendFile(m.chat, vn, 'menu.mp3', null, m, true, { type: 'audioMessage', ptt: true})
       const fkontak2 = {'key': {'participants': '0@s.whatsapp.net', 'remoteJid': 'status@broadcast', 'fromMe': false, 'id': 'Halo'}, 'message': {'contactMessage': {'vcard': `BEGIN:VCARD\nVERSION:3.0\nN:Sy;Bot;;;\nFN:y\nitem1.TEL;waid=${m.sender.split('@')[0]}:${m.sender.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD`}}, 'participant': '0@s.whatsapp.net'};
