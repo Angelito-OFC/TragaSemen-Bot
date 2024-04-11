@@ -1,4 +1,4 @@
-console.log('[ ℹ️ ] Iniciando...');
+console.log('[ 🐉 ] Iniciando LuckyBot-MD...');
 import {join, dirname} from 'path';
 import {createRequire} from 'module';
 import {fileURLToPath} from 'url';
