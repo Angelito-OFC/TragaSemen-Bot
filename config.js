@@ -55,6 +55,7 @@ global.imagen4 = fs.readFileSync('./Menu.png');
 global.imagen5 = fs.readFileSync('./src/+18.jpg');
 global.imagen6 = fs.readFileSync('./Menu3.png');
 global.imagen7 = fs.readFileSync('./src/Descargas.png');
+global.imagen8 = fs.readFileSync('./dvs/Dragon ball z.jpg');
 
 global.mods = [];
 
