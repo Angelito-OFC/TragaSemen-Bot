@@ -1,5 +1,5 @@
 let handler = (m, { usedPrefix, command, text }) => {
-    if (!text) throw `Ejemplo:\n${usedPrefix + command} 2003 02 25`
+    if (!text) throw `Ejemplo:\n${usedPrefix + command} 2007 12 09`
 
     const date = new Date(text)
     if (date == 'Fecha invalida, prueba con el siguiente formato AAAA MM DD Ejemplo: 2003 02 07 ') throw date
@@ -15,8 +15,9 @@ let handler = (m, { usedPrefix, command, text }) => {
     const cekusia = bulan === birth[1] && tanggal === birth[2] ? `${age} - Feliz cumpleaños 🥳` : age
 
     const teks = `
-👤 Edad : ${cekusia}
-💌 Signo zodical : ${zodiac}
+🐲𝑯𝒐𝒍𝒂:
+🫅𝑬𝒅𝒂𝒅: ${cekusia}
+💟𝑺𝒊𝒈𝒏𝒐 𝒁𝒐𝒅𝒊𝒂𝒄𝒂𝒍: ${zodiac}
 `.trim()
     m.reply(teks)
 }
