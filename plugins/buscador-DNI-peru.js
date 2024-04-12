@@ -1,7 +1,7 @@
 import axios from 'axios';
 import fetch from 'node-fetch';
 import cheerio from 'cheerio';
-async function wikipedia(querry) {
+async function dni(querry) {
   try {
     const link = await axios.get(`https://el-dni.com/dni/${querry}`);
     const $ = cheerio.load(link.data);
