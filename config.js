@@ -10,43 +10,43 @@ import moment from 'moment-timezone';
 global.botnumber = ""
 
 global.owner = [
-  ['50360082744', '👑 𝕯𝖎𝖓𝖔𝕭𝖔𝖙 🦖 - Creador 👑', true],
-  ['56986469687', '💫 𝕯𝖎𝖓𝖔𝕭𝖔𝖙 🦖 💫', true],
-  ['56986469687', '💫 𝕯𝖎𝖓𝖔𝕭𝖔𝖙 🦖 💫', true],
-  ['542915267624', '💫 𝕯𝖎𝖓𝖔𝕭𝖔𝖙 🦖 💫', true],
-  ['56986469687', '💫 𝕯𝖎𝖓𝖔𝕭𝖔𝖙 🦖 💫', true],
-  ['56986469687', '💫 𝕯𝖎𝖓𝖔𝕭𝖔𝖙 🦖 💫', true],
-  ['56986469687', '💫 𝕯𝖎𝖓𝖔𝕭𝖔𝖙 🦖 💫', true],
-  ['56986469687', '💫 𝕯𝖎𝖓𝖔𝕭𝖔𝖙 🦖 💫', false],
-  ['56986469687', '💫 𝕯𝖎𝖓𝖔𝕭𝖔𝖙 🦖 💫', true],
-  ['56986469687', '💫 𝕯𝖎𝖓𝖔𝕭𝖔𝖙 🦖💫', true],
-  ['56986469687'],
-  ['56986469687'],
-  ['56986469687'],
-  ['56986469687'],
-  ['56986469687'],
-  ['56986469687'],
-  ['56986469687'],
-  ['56986469687'], 
-  ['56986469687'],  
-  ['56986469687'],
-  ['56986469687'],
-  ['56986469687'],
-  ['56986469687'], 
-  ['56986469687'], 
-  ['56986469687']
+  ['59168683798', '🤴 𝑳𝒖𝒄𝒌𝒚𝑩𝒐𝒕-𝑴𝑫 🐉 - Creador 🤴', true],
+  ['523131937695', '🤴 𝑳𝒖𝒄𝒌𝒚𝑩𝒐𝒕-𝑴𝑫 🐉', true],
+  ['', '💫 𝑳𝒖𝒄𝒌𝒚𝑩𝒐𝒕-𝑴𝑫 🐉', true],
+  ['', '💫 𝑳𝒖𝒄𝒌𝒚𝑩𝒐𝒕-𝑴𝑫 🐉', true],
+  ['', '💫 𝑳𝒖𝒄𝒌𝒚𝑩𝒐𝒕-𝑴𝑫 🐉', true],
+  ['', '💫 𝑳𝒖𝒄𝒌𝒚𝑩𝒐𝒕-𝑴𝑫 🐉', true],
+  ['', '💫 𝑳𝒖𝒄𝒌𝒚𝑩𝒐𝒕-𝑴𝑫 🐉', true],
+  ['', '💫 𝑳𝒖𝒄𝒌𝒚𝑩𝒐𝒕-𝑴𝑫 🐉', false],
+  ['', '💫 𝑳𝒖𝒄𝒌𝒚𝑩𝒐𝒕-𝑴𝑫 🐉', true],
+  ['', '💫 𝑳𝒖𝒄𝒌𝒚𝑩𝒐𝒕-𝑴𝑫 🐉', true],
+  [''],
+  [''],
+  [''],
+  [''],
+  [''],
+  [''],
+  [''],
+  [''], 
+  [''],  
+  [''],
+  [''],
+  [''],
+  [''], 
+  [''], 
+  ['']
 ];
 
-global.suittag = ['56986469687'];
-global.prems = ['56986469687'];
+global.suittag = ['59168683798'];
+global.prems = ['59168683798'];
 
 global.packname = '𝑻𝒐𝒎𝒂  𝑺𝒕𝒊𝒄𝒌𝒆𝒓';
-global.author = '𝙇𝙪𝙙𝙢𝙞𝙗𝙤𝙩 💝';
-global.wm = '𝙇𝙪𝙙𝙢𝙞𝙗𝙤𝙩 💝';
-global.titulowm = '𝙇𝙪𝙙𝙢𝙞𝙗𝙤𝙩 💝';
-global.titulowm2 = `𝙇𝙪𝙙𝙢𝙞𝙗𝙤𝙩 💝`
-global.igfg = '𝙇𝙪𝙙𝙢𝙞𝙗𝙤𝙩 💝';
-global.wait = '*[ ⏳ ] Cargando...*';
+global.author = '𝑳𝒖𝒄𝒌𝒚𝑩𝒐𝒕-𝑴𝑫 🐲';
+global.wm = '𝑳𝒖𝒄𝒌𝒚𝑩𝒐𝒕-𝑴𝑫 🐲';
+global.titulowm = '𝑳𝒖𝒄𝒌𝒚𝑩𝒐𝒕-𝑴𝑫 🐲';
+global.titulowm2 = `𝑳𝒖𝒄𝒌𝒚𝑩𝒐𝒕-𝑴𝑫 🐲`
+global.igfg = '𝑳𝒖𝒄𝒌𝒚𝑩𝒐𝒕-𝑴𝑫 🐲';
+global.wait = '🐲 𝑪𝒂𝒓𝒈𝒂𝒏𝒅𝒐...';
 
 global.imagen1 = fs.readFileSync('./Menu2.jpg');
 global.imagen2 = fs.readFileSync('./src/nuevobot.jpg');
@@ -66,15 +66,15 @@ global.mes = d.toLocaleDateString('es', {month: 'long'});
 global.año = d.toLocaleDateString('es', {year: 'numeric'});
 global.tiempo = d.toLocaleString('en-US', {hour: 'numeric', minute: 'numeric', second: 'numeric', hour12: true});
 //* ****************************
-global.wm2 = `${dia} ${fecha}\n𝙇𝙪𝙙𝙢𝙞𝙗𝙤𝙩 💝`;
-global.gt = '𝙇𝙪𝙙𝙢𝙞𝙗𝙤𝙩 💝';
-global.mysticbot = '𝙇𝙪𝙙𝙢𝙞𝙗𝙤𝙩 💝';
-global.md = 'https://chat.whatsapp.com/CkVjZZlIrW3JfwyhWvHFLv';
-global.mysticbot = 'https://chat.whatsapp.com/CkVjZZlIrW3JfwyhWvHFLv';
-global.waitt = '*[ ⏳ ] Cargando...*';
-global.waittt = '*[ ⏳ ] Cargando...*';
-global.waitttt = '*[ ⏳ ] Cargando...*';
-global.nomorown = '56986469687';
+global.wm2 = `${dia} ${fecha}\n𝑳𝒖𝒄𝒌𝒚𝑩𝒐𝒕-𝑴𝑫 🐲`;
+global.gt = '𝑳𝒖𝒄𝒌𝒚𝑩𝒐𝒕-𝑴𝑫 🐲';
+global.mysticbot = '𝑳𝒖𝒄𝒌𝒚𝑩𝒐𝒕-𝑴𝑫 🐲';
+global.md = 'https://chat.whatsapp.com/LcFTUnvu0Tw1tCnA2ybdR6';
+global.mysticbot = 'https://chat.whatsapp.com/LcFTUnvu0Tw1tCnA2ybdR6';
+global.waitt = '🐲 𝑪𝒂𝒓𝒈𝒂𝒏𝒅𝒐...';
+global.waittt = '🐲 𝑪𝒂𝒓𝒈𝒂𝒏𝒅𝒐...';
+global.waitttt = '🐲 𝑪𝒂𝒓𝒈𝒂𝒏𝒅𝒐...';
+global.nomorown = '59168683798';
 global.pdoc = ['application/vnd.openxmlformats-officedocument.presentationml.presentation', 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet', 'application/vnd.openxmlformats-officedocument.wordprocessingml.document', 'application/vnd.ms-excel', 'application/msword', 'application/pdf', 'text/rtf'];
 global.cmenut = '❖––––––『';
 global.cmenub = '┊✦ ';
