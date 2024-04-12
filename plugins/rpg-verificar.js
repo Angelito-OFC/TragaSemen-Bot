@@ -5,7 +5,7 @@ const handler = async function(m, {conn, text, usedPrefix, command}) {
   const name2 = conn.getName(m.sender);
   const pp = await conn.profilePictureUrl(m.chat, 'image').catch((_) => global.imagen1);
   if (user.registered === true) throw `[✔️] 𝐘𝐚 𝐞𝐬𝐭𝐚𝐬 𝐯𝐞𝐫𝐢𝐟𝐢𝐜𝐚𝐝𝐨\n\n¿𝐐𝐮𝐢𝐞𝐫𝐞𝐬 𝐯𝐞𝐫𝐢𝐟𝐢𝐜𝐚𝐫𝐭𝐞 𝐝𝐞 𝐧𝐮𝐞𝐯𝐨?\n\n 📓𝐔𝐬𝐚 𝐞𝐬𝐭𝐞 𝐜𝐨𝐦𝐚𝐧𝐝𝐨 𝐩𝐚𝐫𝐚 𝐞𝐥𝐢𝐦𝐢𝐧𝐚𝐫 𝐭𝐮 𝐯𝐞𝐫𝐢𝐟𝐢𝐜𝐚𝐜𝐢𝐨𝐧 \n${usedPrefix}𝐮𝐧𝐫𝐞𝐠 <Número de serie>`;
-  if (!Reg.test(text)) throw `[❕] 𝐮𝐬𝐨 𝐢𝐧𝐜𝐨𝐫𝐫𝐞𝐜𝐭𝐨\n\n—◉ 𝐮𝐬𝐨 𝐝𝐞𝐥 𝐜𝐨𝐦𝐚𝐧𝐝𝐨: ${usedPrefix + command} *nombre.edad*\n*—◉ Ejemplo: ${usedPrefix + command} ⛈️Dylan.18*`;
+  if (!Reg.test(text)) throw `[❕] 𝐮𝐬𝐨 𝐢𝐧𝐜𝐨𝐫𝐫𝐞𝐜𝐭𝐨\n\n—◉ 𝐮𝐬𝐨 𝐝𝐞𝐥 𝐜𝐨𝐦𝐚𝐧𝐝𝐨: ${usedPrefix + command} *nombre.edad*\n*—◉ Ejemplo: ${usedPrefix + command} 🐉 Lucky.18*`;
   let [_, name, splitter, age] = text.match(Reg);
   if (!name) throw '*[❗𝐈𝐍𝐅𝐎❗] 𝙳𝙴𝙱𝙴𝚂 𝙿𝙾𝙽𝙴𝚁 𝚄𝙽 𝙽𝙾𝙼𝙱𝚁𝙴*';
   if (!age) throw '*[❗𝐈𝐍𝐅𝐎❗] 𝙻𝙰 𝙴𝙳𝙰𝙳 𝙽𝙾 𝙿𝚄𝙴𝙳𝙴 𝙴𝚂𝚃𝙰𝚁 𝚅𝙰𝙲𝙸𝙰*';
