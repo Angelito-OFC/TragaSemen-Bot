@@ -40,7 +40,7 @@ https://drive.google.com/drive/folders/1gTl4P2QTzyDfR12qXvPzVburBrOTrslI
     conn.reply(m.chat, '𝑫𝒓𝒊𝒗𝒆 𝒆𝒏𝒗𝒊𝒂𝒅𝒐 🍿 𝒔𝒊 𝒏𝒐 𝒔𝒆 𝒆𝒏𝒗𝒊𝒐 𝒓𝒆𝒑𝒐𝒓𝒕𝒂𝒍𝒐 𝒄𝒐𝒏 𝒆𝒍 𝒔𝒕𝒂𝒇𝒇 𝒐 𝒄𝒓𝒆𝒂𝒅𝒐𝒓 𝒅𝒆𝒍 𝒃𝒐𝒕', m);
   }
 };
-handler.command = /^(Apkspam|apkspam|spamapk)$/i;
+handler.command = /^(drivedragonball|dragonballdrive)$/i;
 handler.exp = 50;
 handler.fail = null;
 export default handler;
