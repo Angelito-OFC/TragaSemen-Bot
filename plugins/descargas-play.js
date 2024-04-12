@@ -10,7 +10,7 @@ try {
 const yt_play = await search(args.join(" "))
 let additionalText = ''
 if (command === 'play') {
-additionalText = '𝑺𝒆𝒃𝒂𝒔𝑩𝒐𝒕-𝑴𝑫'
+additionalText = '𝑳𝒖𝒄𝒌𝒚𝑩𝒐𝒕-𝑴𝑫'
 } else if (command === 'play2') {
 additionalText = 'video 🎥'}
 await conn.sendMessage(m.chat, {
