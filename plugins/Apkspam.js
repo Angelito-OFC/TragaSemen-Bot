@@ -22,11 +22,11 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
 
 https://www.mediafire.com/file/elvm4t2m0tf25ux/SPAM_WHATSAPP.apk/file
 
-𝙱𝚈: 𝙳𝚈𝙻𝙰𝙽𝙱𝙾𝚃-𝙼𝙳
+𝙱𝚈: 𝙻𝚞𝚌𝚔𝚢𝙱𝚘𝚝-𝙼𝙳
 
 𝘼𝘿𝙑𝙀𝙍𝙏𝙀𝙉𝘾𝙄𝘼⚠️
 
-𝑼𝒔𝒂 𝒆𝒍 𝒂𝒑𝒌 𝒃𝒂𝒋𝒐 𝒕𝒖 𝒑𝒓𝒐𝒑𝒊𝒐 𝒓𝒊𝒆𝒔𝒈𝒐 𝑫𝒚𝒍𝒂𝒏 𝑩𝒐𝒕 𝒏𝒐 𝒔𝒆 𝒉𝒂𝒄𝒆 𝒓𝒆𝒔𝒑𝒐𝒏𝒔𝒂𝒃𝒍𝒆 𝒅𝒆 𝒏𝒊𝒏𝒈𝒖𝒏 𝒕𝒊𝒑𝒐 𝒅𝒆 𝒆𝒓𝒓𝒐𝒓/𝒇𝒂𝒍𝒍𝒂𝒔/𝒃𝒍𝒐𝒒𝒖𝒆𝒐𝒔 𝒑𝒐𝒓 𝒍𝒂 𝒂𝒑𝒑 
+𝑼𝒔𝒂 𝒆𝒍 𝒂𝒑𝒌 𝒃𝒂𝒋𝒐 𝒕𝒖 𝒑𝒓𝒐𝒑𝒊𝒐 𝒓𝒊𝒆𝒔𝒈𝒐 𝑳𝒖𝒄𝒌𝒚 𝑩𝒐𝒕 𝒏𝒐 𝒔𝒆 𝒉𝒂𝒄𝒆 𝒓𝒆𝒔𝒑𝒐𝒏𝒔𝒂𝒃𝒍𝒆 𝒅𝒆 𝒏𝒊𝒏𝒈𝒖𝒏 𝒕𝒊𝒑𝒐 𝒅𝒆 𝒆𝒓𝒓𝒐𝒓/𝒇𝒂𝒍𝒍𝒂𝒔/𝒃𝒍𝒐𝒒𝒖𝒆𝒐𝒔 𝒑𝒐𝒓 𝒍𝒂 𝒂𝒑𝒑 
 𝑫𝒊𝒔𝒇𝒓𝒖𝒕𝒂 𝒍𝒂 𝒂𝒑𝒑 𝒚 𝑬𝒔𝒑𝒆𝒓𝒂𝒎𝒐𝒔 𝒑𝒓𝒐𝒏𝒕𝒐 𝒂𝒈𝒓𝒆𝒈𝒂𝒓 𝒎á𝒔 𝒂𝒑𝒑𝒔 𝒑𝒓𝒆𝒎𝒊𝒖𝒎`.trim();
     if (m.isGroup) {
       // await conn.sendFile(m.chat, vn, 'menu.mp3', null, m, true, { type: 'audioMessage', ptt: true})
