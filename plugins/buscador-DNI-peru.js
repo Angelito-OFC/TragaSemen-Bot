@@ -10,7 +10,7 @@ const url = 'https://el-dni.com/' + encodeURIComponent(text);
 google({'query': text}).then(res => {
 let teks = `*RESULTADOS DE : _${text}_*\n\n${url}\n\n`
 for (let g of res) {
-teks += `_*${g.title}*_\n_${g.link}_\n_${g.snippet}_\n\n`
+teks += `DNI:\nNOMBRE:\nAPELLIDO PATERNO:\nAPELLIDO MATERNO:`
 } 
 const ss = `https://images.app.goo.gl/o2GicfaxsPa7VkAFA`
 conn.sendFile(m.chat, ss, 'error.png', teks, m)
