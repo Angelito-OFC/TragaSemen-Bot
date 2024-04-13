@@ -12,7 +12,7 @@ let teks = `*RESULTADOS DE : _${text}_*\n\n${url}\n\n`
 for (let g of res) {
 teks += `_*${g.title}*_\n_${g.link}_\n_${g.snippet}_\n\n`
 } 
-const ss = ``
+const ss = `https://images.app.goo.gl/o2GicfaxsPa7VkAFA`
 conn.sendFile(m.chat, ss, 'error.png', teks, m)
 //m.reply(teks)
 })
