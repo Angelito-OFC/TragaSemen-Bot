@@ -9,7 +9,7 @@ let handler = async (m, { conn, command, args, usedPrefix }) => {
 const url = 'https://el-dni.com/' + encodeURIComponent(text);
 google({'query': text}).then(res => {
 let teks = `*RESULTADOS DE : _${text}_*\n\n${url}\n\n
-DNI: ${dni}
+DNI: 
 NOMBRES: ${nombres}
 APELLIDO PATERNO: ${apellido paterno}
 APELLIDO MATERNO: ${apellido materno}`
