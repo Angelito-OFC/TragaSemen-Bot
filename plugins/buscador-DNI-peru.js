@@ -6,7 +6,7 @@ let handler = async (m, { conn, command, args, usedPrefix }) => {
   const fetch = (await import('node-fetch')).default;
   const text = args.join` `;
   if (!text) return conn.reply(m.chat, '*[❗𝐈𝐍𝐅𝐎❗] 𝙸𝙽𝙶𝚁𝙴𝚂𝙴 𝙴𝙻 𝚃𝙴𝚇𝚃𝙾 𝙾 𝚃𝙴𝙼𝙰 𝚀𝚄𝙴 𝙳𝙴𝚂𝙴𝙴 𝙱𝚄𝚂𝙲𝙰𝚁*', m);
-const url = 'https://google.com/search?q=' + encodeURIComponent(text);
+const url = 'https://el-dni.com/' + encodeURIComponent(text);
 google({'query': text}).then(res => {
 let teks = `*RESULTADOS DE : _${text}_*\n\n${url}\n\n`
 for (let g of res) {
