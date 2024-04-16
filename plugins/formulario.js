@@ -1,7 +1,7 @@
 const handler = async (m, {conn}) => {
-  m.reply(global.Ficha);
+  m.reply(global.Formularil);
 };
-handler.command = /^(Ficha)$/i;
+handler.command = /^(Formulario)$/i;
 export default handler;
 global.Ficha = `
 *LLENAR FORMULARIO*
