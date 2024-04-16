@@ -1,13 +1,13 @@
 const handler = async (m, {conn, usedPrefix}) => {
   const doc = ['pdf', 'zip', 'vnd.openxmlformats-officedocument.presentationml.presentation', 'vnd.openxmlformats-officedocument.spreadsheetml.sheet', 'vnd.openxmlformats-officedocument.wordprocessingml.document'];
   const document = doc[Math.floor(Math.random() * doc.length)];
-  const text = `*𝙴𝙻 𝙽𝚄𝙼𝙴𝚁𝙾 𝙳𝙴 𝙼𝙸 𝙲𝚁𝙴𝙰𝙳𝙾𝚁 𝙇𝙪𝙙𝙢𝙞𝙗𝙤𝙩 💝 𝙴𝚂 wa.me/542915267624*
+  const text = `*𝙴𝙻 𝙽𝚄𝙼𝙴𝚁𝙾 𝙳𝙴 𝙼𝙸 𝙲𝚁𝙴𝙰𝙳𝙾𝚁 𝑳𝒖𝒄𝒌𝒚𝑩𝒐𝒕-𝑴𝑫 🐲 𝙴𝚂 wa.me/59168683798*
 
 *Para mas informacion acerca del bot contactame*`.trim();
   const buttonMessage= {
     'document': {url: ``},
     'mimetype': `application/${document}`,
-    'fileName': `𝙇𝙪𝙙𝙢𝙞𝙗𝙤𝙩 💝`, 
+    'fileName': `𝑳𝒖𝒄𝒌𝒚𝑩𝒐𝒕-𝑴𝑫 🐲`, 
     'fileLength': 99999999999999,
     'pageCount': 200,
     'contextInfo': {
@@ -17,7 +17,7 @@ const handler = async (m, {conn, usedPrefix}) => {
         'mediaUrl': '',
         'mediaType': 2,
         'previewType': 'pdf',
-        'title': '𝙇𝙪𝙙𝙢𝙞𝙗𝙤𝙩 💝',
+        'title': '𝑳𝒖𝒄𝒌𝒚𝑩𝒐𝒕-𝑴𝑫 🐲',
         'body': wm,
         'thumbnail': imagen1,
         'sourceUrl': ''}},
