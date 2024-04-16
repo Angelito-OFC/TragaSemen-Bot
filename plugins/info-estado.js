@@ -22,13 +22,12 @@ const handler = async (m, { conn, usedPrefix }) => {
   const old = performance.now();
   const neww = performance.now();
   const rtime = (neww - old).toFixed(7);
-  const wm = '𝙇𝙪𝙙𝙢𝙞𝙗𝙤𝙩 💝';
+  const wm = '𝑳𝒖𝒄𝒌𝒚𝑩𝒐𝒕-𝑴𝑫 🐲';
   const info = ` _*< INFO - ESTADO />*_
 
- [🤴🏻] *Prop.:* 𝙇𝙪𝙙𝙢𝙞 💝
- [#️⃣] *WA:* wa.me/542915267624
- [🤖] *IG:* @LUDMI_SHOP
-
+ [🤴🏻] *Prop.:* 𝑳𝒖𝒄𝒌𝒚𝑩𝒐𝒕-𝑴𝑫 🐲
+ [#️⃣] *WA:* wa.me/59168683798
+ [🤖] *IG:* @usxr_angelito
  [💡] *Ping:* ${rtime}
  [🚀]*Uptime:* ${uptime}
  [🎳] *Prefijo:* ${usedPrefix}
@@ -40,7 +39,6 @@ const handler = async (m, { conn, usedPrefix }) => {
  [🔐] *Chats privados:* ${chats.length - groups.length}
  [🌎] *Grupos:* ${groups.length}
  [🤖] *Chats totales:* ${chats.length}
- 
  [🏢] *Autoread:* ${autoread ? "activo" : "desactivado"}
  [❗] *Restrict:* ${restrict ? "activo" : "desactivado"}
  [📵] *PCOnly:* ${pconly ? "activado" : "desactivado"}
@@ -69,8 +67,8 @@ const handler = async (m, { conn, usedPrefix }) => {
         mediaUrl: "https://www.instagram.com/LUDMI_SHOP_/",
         mediaType: 2,
         previewType: "pdf",
-        title: "𝙇𝙪𝙙𝙢𝙞𝙗𝙤𝙩 💝",
-        body: "𝙇𝙪𝙙𝙢𝙞𝙗𝙤𝙩 💝",
+        title: "𝑳𝒖𝒄𝒌𝒚𝑩𝒐𝒕-𝑴𝑫 🐲",
+        body: "𝑳𝒖𝒄𝒌𝒚𝑩𝒐𝒕-𝑴𝑫 🐲",
         thumbnail: imagen1,
         sourceUrl: "https://www.instagram.com/LUDMI_SHOP_/",
       },
