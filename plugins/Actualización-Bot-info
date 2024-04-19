@@ -1,5 +1,5 @@
 const handler = async (m, {conn}) => {
-  m.reply(global.infoactualizacion);
+  m.reply(global.infoact);
 };
 handler.command = /^(infoactualizacion|infoact)$/i;
 export default handler;
@@ -7,7 +7,7 @@ handler.admin = true
 handler.group = true
 handler.botAdmin = true
 
-global.infoactualizacion = ` 
+global.infoact = ` 
 ┏━━━━━━🐲𝑳𝒖𝒄𝒌𝒚𝑩𝒐𝒕-𝑴𝑫🐲━━━━━━┓
 ┃
 ┃ෆ _Tenemos novedades nuevas_
