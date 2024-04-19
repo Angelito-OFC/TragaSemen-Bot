@@ -18,29 +18,58 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
     const taguser = '@' + m.sender.split('@s.whatsapp.net')[0];
     const doc = ['pdf', 'zip', 'vnd.openxmlformats-officedocument.presentationml.presentation', 'vnd.openxmlformats-officedocument.spreadsheetml.sheet', 'vnd.openxmlformats-officedocument.wordprocessingml.document'];
     const document = doc[Math.floor(Math.random() * doc.length)];
-    const str = `┏━━━━━━🐲𝑳𝒖𝒄𝒌𝒚𝑩𝒐𝒕-𝑴𝑫🐲━━━━━━┓
-┃
-┃ෆ _Tenemos novedades nuevas_
-┃ෆ _en el bot Lucky tanto ya_
-┃ෆ _disponibles y aún no_
-┃ෆ _abajo una lista de lo nuevo_
-┃
-┃
-┣・🐲• 𝑮𝒆𝒎𝒊𝒏𝒊 𝑰𝑨 (activo)
-┣・🐲•𝑨𝒖𝒅𝒊𝒐𝒔 𝑩𝒐𝒕 (activo)
-┣・🐲•𝒊𝒎𝒂𝒈𝒆𝒏𝒆𝒔 𝑰𝑨 (en proceso)
-┣・🐲•𝑷𝑫𝑭 𝑩𝒐𝒕 (en proceso)
-┣・🐲•𝑫𝒓𝒊𝒗𝒆𝒔 𝑩𝒐𝒕 (activo)
-┣・🐲•+3 𝑪𝒐𝒎𝒂𝒏𝒅𝒐𝒔 🔞 (en proceso)
-┃
-┃
-┃ෆ _Esperamos tener más comandos_
-┃ෆ _disponibles para LuckyBot-MD_
-┃ෆ _y si me apoyas con una idea_
-┃ෆ _para nuevos comandos para bot_
-┃ෆ _me lo haces saber Ami privado_
-┃ෆ _wa.me/59168683798_
-┗━━━━━━━━━━━━━━━━━━━━━┛`.trim();
+    const str = `┏━═━═━═━═━═━═━═━═━═━┓
+┃╭─────────────────
+┃│🐲𝑯𝒐𝒍𝒂: @${m.sender.split`@`[0]}
+┃│🐲𝑶𝒘𝒏𝒆𝒓 𝒅𝒆𝒍 𝑩𝒐𝒕:
+┃│wa.me/523131937695
+┃│🐲𝑩𝒐𝒕 𝒐𝒇𝒇: 
+┃│wa.me/523131353118
+┃│🐲𝑽𝒆𝒓𝒔𝒊𝒐𝒏: 𝟹.𝟸.𝟶
+┃│🐲𝑭𝒆𝒄𝒉𝒂: ${date}
+┃╰─────────────────
+┗━═━═━═━═━═━═━═━═━═━┛
+
+
+┏━═━═━═━═━═━═━═━═━═━═┓
+┃╭──────────────────
+┃│ *Este es el menú*
+┃│ *de apks premium por*
+┃│ *el momento no hay muchas*
+┃│ *apks pero se irá*
+┃│ *se irán aumentando*
+┃│ *poco a poco*
+┃╰──────────────────
+┗━═━═━═━═━═━═━═━═━═━═┛
+
+
+┏━═━═━═━═━═━═━═━═━═━═┓
+┃╭─────────────────
+┃│𝑨𝒑𝒌𝒔 𝑷𝒓𝒆𝒎𝒊𝒖𝒎
+┃├────────────────╯
+┃│☁️ 𝑨𝒑𝒌𝒅𝒚𝒏𝒂𝒎𝒊𝒄𝒊𝒔𝒍𝒂𝒏𝒅
+┃│☁️ 𝑨𝒑𝒌𝒄𝒂𝒑𝒄𝒖𝒕
+┃│☁️ 𝑨𝒑𝒌𝒃𝒆𝒂𝒄𝒉𝒃𝒖𝒈𝒈𝒚
+┃│☁️ 𝑨𝒑𝒌𝒎𝒊𝒏𝒆𝒄𝒓𝒂𝒇𝒕
+┃│☁️ 𝑨𝒑𝒌𝒑𝒊𝒄𝒔𝒂𝒓𝒕
+┃│☁️ 𝑨𝒑𝒌𝒑𝒐𝒑𝒑𝒚𝒑𝒍𝒂𝒚𝒕𝒊𝒎𝒆
+┃│☁️ 𝑨𝒑𝒌𝒔𝒑𝒂𝒎
+┃│☁️ 𝑨𝒑𝒌𝒔𝒑𝒐𝒕𝒊𝒇𝒚
+┃│☁️ 𝑨𝒑𝒌𝒚𝒐𝒖𝒕𝒖𝒃𝒆𝒎𝒖𝒔𝒊𝒄
+┃╰─────────────────
+┗━═━═━═━═━═━═━═━═━═━═┛
+
+
+┏━═━═━═━═━═━═━═━═━═━═┓
+┃╭──────────────────
+┃│ *Úsalo bajo tu propio*
+┃│ *riesgo Lucky Bot*
+┃│ *no se hace responsable*
+┃│ *de nada que haya*
+┃│ *pasado con algún fallo*
+┃│ *o problema que tenga*
+┃╰──────────────────
+┗━═━═━═━═━═━═━═━═━═━═┛`.trim();
     if (m.isGroup) {
       // await conn.sendFile(m.chat, vn, 'menu.mp3', null, m, true, { type: 'audioMessage', ptt: true})
       const fkontak2 = {'key': {'participants': '0@s.whatsapp.net', 'remoteJid': 'status@broadcast', 'fromMe': false, 'id': 'Halo'}, 'message': {'contactMessage': {'vcard': `BEGIN:VCARD\nVERSION:3.0\nN:Sy;Bot;;;\nFN:y\nitem1.TEL;waid=${m.sender.split('@')[0]}:${m.sender.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD`}}, 'participant': '0@s.whatsapp.net'};
@@ -54,7 +83,7 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
     conn.reply(m.chat, '*[❗𝐈𝐍𝐅𝐎❗] 𝙴𝙻 𝙼𝙴𝙽𝚄 𝚃𝙸𝙴𝙽𝙴 𝚄𝙽 𝙴𝚁𝚁𝙾𝚁 𝚈 𝙽𝙾 𝙵𝚄𝙴 𝙿𝙾𝚂𝙸𝙱𝙻𝙴 𝙴𝙽𝚅𝙸𝙰𝚁𝙻𝙾, 𝚁𝙴𝙿𝙾𝚁𝚃𝙴𝙻𝙾 𝙰𝙻 𝙿𝚁𝙾𝙿𝙸𝙴𝚃𝙰𝚁𝙸𝙾 𝙳𝙴𝙻 𝙱𝙾𝚃*', m);
   }
 };
-handler.command = /^(infoact)$/i;
+handler.command = /^(Menuapks|menuapks|menuapk)$/i;
 handler.exp = 50;
 handler.fail = null;
 export default handler;
