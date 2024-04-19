@@ -1,7 +1,7 @@
 const handler = async (m, {conn}) => {
   m.reply(global.Infoact);
 };
-handler.command = /^(infoact|infoactualizacion)$/i;
+handler.command = /^(Infoact|infoactualizacion)$/i;
 export default handler;
 handler.admin = true
 handler.group = true
