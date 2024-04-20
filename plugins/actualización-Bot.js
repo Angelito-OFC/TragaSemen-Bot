@@ -18,7 +18,7 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
     const taguser = '@' + m.sender.split('@s.whatsapp.net')[0];
     const doc = ['pdf', 'zip', 'vnd.openxmlformats-officedocument.presentationml.presentation', 'vnd.openxmlformats-officedocument.spreadsheetml.sheet', 'vnd.openxmlformats-officedocument.wordprocessingml.document'];
     const document = doc[Math.floor(Math.random() * doc.length)];
-    const str = `┏━━━━━━🐲𝑳𝒖𝒄𝒌𝒚𝑩𝒐𝒕-𝑴𝑫🐲━━━━━━┓
+    const str = `┏━━━━━🐲𝑳𝒖𝒄𝒌𝒚𝑩𝒐𝒕-𝑴𝑫🐲━━━━┓
 ┃
 ┃ෆ _Tenemos novedades nuevas_
 ┃ෆ _en el bot Lucky tanto ya_
