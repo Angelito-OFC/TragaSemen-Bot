@@ -51,10 +51,10 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
       conn.sendMessage(m.chat, {image: pp, caption: str.trim(), mentions: [...str.matchAll(/@([0-9]{5,16}|0)/g)].map((v) => v[1] + '@s.whatsapp.net')}, {quoted: fkontak2});
     }
   } catch {
-    conn.reply(m.chat, '𝑨𝒑𝒌 𝒆𝒏𝒗𝒊𝒂𝒅𝒐 📩 𝒔𝒊 𝒏𝒐 𝒔𝒆 𝒆𝒏𝒗𝒊𝒐 𝒓𝒆𝒑𝒐𝒓𝒕𝒂𝒍𝒐 𝒄𝒐𝒏 𝒆𝒍 𝒔𝒕𝒂𝒇𝒇 𝒐 𝒄𝒓𝒆𝒂𝒅𝒐𝒓 𝒅𝒆𝒍 𝒃𝒐𝒕', m);
+    conn.reply(m.chat, '𝑳𝒂 𝒍𝒊𝒔𝒕𝒂 𝒅𝒆 𝒊𝒏𝒇𝒐𝒓𝒎𝒂𝒄𝒊𝒐𝒏 𝒔𝒐𝒃𝒓𝒆 𝒍𝒂 𝒂𝒄𝒕𝒖𝒂𝒍𝒊𝒛𝒂𝒄𝒊ó𝒏 𝒅𝒆 𝑳𝒖𝒄𝒌𝒚 𝑩𝒐𝒕 𝒗𝒆𝒓𝒔𝒊𝒐𝒏 3.2.0 📩 𝒔𝒊 𝒏𝒐 𝒔𝒆 𝒆𝒏𝒗𝒊𝒐 𝒓𝒆𝒑𝒐𝒓𝒕𝒂𝒍𝒐 𝒄𝒐𝒏 𝒆𝒍 𝒔𝒕𝒂𝒇𝒇 𝒐 𝒄𝒓𝒆𝒂𝒅𝒐𝒓 𝒅𝒆𝒍 𝒃𝒐𝒕', m);
   }
 };
-handler.command = /^(Apkbeachbuggy|apkbeachbuggy|beachbuggyapk)$/i;
+handler.command = /^(actbot|botact)$/i;
 handler.exp = 50;
 handler.fail = null;
 export default handler;
