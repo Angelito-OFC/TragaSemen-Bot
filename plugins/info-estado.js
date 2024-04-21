@@ -35,7 +35,6 @@ const handler = async (m, { conn, usedPrefix }) => {
  [🦜] *Usuarios regs.:* ${totalusrReg}
  [🌎] *Usuarios totales:* ${totalusr}
  [👨‍🦯] *Tipo de bot:* ${(conn.user.jid == global.conn.user.jid ? '' : `Sub-bot de:\n ▢ +${global.conn.user.jid.split`@`[0]}`) || 'No es sub-bot'}
- 
  [🔐] *Chats privados:* ${chats.length - groups.length}
  [🌎] *Grupos:* ${groups.length}
  [🤖] *Chats totales:* ${chats.length}
