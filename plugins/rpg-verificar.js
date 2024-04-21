@@ -25,7 +25,6 @@ const handler = async function(m, {conn, text, usedPrefix, command}) {
 🐲𝑬𝒅𝒂𝒅: ${age} años
 🐲𝑵° 𝑺𝒆𝒓𝒊𝒆:
 ${sn}
-🐲𝑭𝒆𝒄𝒉𝒂: ${date}
 🐲𝑳𝒖𝒄𝒌𝒚𝑩𝒐𝒕-𝑴𝑫`;
   // let author = global.author
   await conn.sendFile(m.chat, pp, 'mystic.jpg', caption);
