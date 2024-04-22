@@ -48,7 +48,7 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
     conn.reply(m.chat, 'infobot enviado 📩', m);
   }
 };
-handler.command = /^(Apkbeachbuggy|apkbeachbuggy|beachbuggyapk)$/i;
+handler.command = /^(infobot|infobot)$/i;
 handler.exp = 50;
 handler.fail = null;
 export default handler;
