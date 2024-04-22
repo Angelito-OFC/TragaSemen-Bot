@@ -20,8 +20,6 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
     const document = doc[Math.floor(Math.random() * doc.length)];
     const str = `*🐉 I N F O R M A C I Ó N🐉*
  
-
-
 🐲꙰᠁❥ *◜𝑪𝒓𝒆𝒂𝒅𝒐𝒓◞:* Angelito
 🐲꙰᠁❥ *◜𝑾𝒂◞:* wa.me/59168683798
 🐲꙰᠁❥ *◜𝑰𝒈◞:* @usxr_angelito
