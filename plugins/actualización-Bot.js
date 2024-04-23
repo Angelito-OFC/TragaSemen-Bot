@@ -18,24 +18,24 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
     const taguser = '@' + m.sender.split('@s.whatsapp.net')[0];
     const doc = ['pdf', 'zip', 'vnd.openxmlformats-officedocument.presentationml.presentation', 'vnd.openxmlformats-officedocument.spreadsheetml.sheet', 'vnd.openxmlformats-officedocument.wordprocessingml.document'];
     const document = doc[Math.floor(Math.random() * doc.length)];
-    const str = `┏━━━━━🐲𝑳𝒖𝒄𝒌𝒚𝑩𝒐𝒕-𝑴𝑫🐲━━━━┓
+    const str = `┏━━━━━🍆𝑻𝒓𝒂𝒈𝒂𝑺𝒆𝒎𝒆𝒏-𝑩𝒐𝒕🍆━━━━┓
 ┃
 ┃ෆ _Tenemos novedades nuevas_
-┃ෆ _en el bot Lucky tanto ya_
+┃ෆ _en el bot TragaSemen tanto ya_
 ┃ෆ _disponibles y aún no_
 ┃ෆ _abajo una lista de lo nuevo_
 ┃
 ┃
-┣・🐲• 𝑮𝒆𝒎𝒊𝒏𝒊 𝑰𝑨 (activo)
-┣・🐲• 𝑨𝒖𝒅𝒊𝒐𝒔 𝑩𝒐𝒕 (activo)
-┣・🐲• 𝒊𝒎𝒂𝒈𝒆𝒏𝒆𝒔 𝑰𝑨 (en proceso)
-┣・🐲• 𝑷𝑫𝑭 𝑩𝒐𝒕 (en proceso)
-┣・🐲• 𝑫𝒓𝒊𝒗𝒆𝒔 𝑩𝒐𝒕 (activo)
-┣・🐲• +3 𝑪𝒐𝒎𝒂𝒏𝒅𝒐𝒔 🔞 (en proceso)
+┣・🍆• 𝑮𝒆𝒎𝒊𝒏𝒊 𝑰𝑨 (activo)
+┣・🍆• 𝑨𝒖𝒅𝒊𝒐𝒔 𝑩𝒐𝒕 (activo)
+┣・🍆• 𝒊𝒎𝒂𝒈𝒆𝒏𝒆𝒔 𝑰𝑨 (en proceso)
+┣・🍆• 𝑷𝑫𝑭 𝑩𝒐𝒕 (en proceso)
+┣・🍆• 𝑫𝒓𝒊𝒗𝒆𝒔 𝑩𝒐𝒕 (activo)
+┣・🍆• +3 𝑪𝒐𝒎𝒂𝒏𝒅𝒐𝒔 🔞 (en proceso)
 ┃
 ┃
 ┃ෆ _Esperamos tener más comandos_
-┃ෆ _disponibles para LuckyBot-MD_
+┃ෆ _disponibles para TragaSemen-Bot_
 ┃ෆ _y si me apoyas con una idea_
 ┃ෆ _para nuevos comandos para bot_
 ┃ෆ _me lo haces saber Ami privado_
