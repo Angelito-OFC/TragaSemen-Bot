@@ -4,7 +4,7 @@
 
 ## `🐉𝕷𝖚𝖈𝖐𝖞 𝕭𝖔𝖙 𝕸𝕯` 
 <p align="center">
-<img src="https://telegra.ph/file/cc8285ecdf2dfb12e3881.jpg" alt="DylanBot-MD" width="900"/>
+<img src="https://telegra.ph/file/4f89062d9ce497338b9e2.jpg" alt="DylanBot-MD" width="900"/>
 </p>
 
 
