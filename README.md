@@ -1,8 +1,8 @@
->● 🐉𝗩𝗲𝗿𝘀𝗶𝗼𝗻 𝗗𝗲𝗹 𝗕𝗼𝘁: 3.2.0 
+>● 🍆𝗩𝗲𝗿𝘀𝗶𝗼𝗻 𝗗𝗲𝗹 𝗕𝗼𝘁: 3.2.0 
 
->● 🐉𝗖𝗿𝗲𝗮𝗱𝗼𝗿: 𝙺𝙰𝚁𝙸𝙼-𝙾𝙵𝙵⚡
+>● 🍆𝗖𝗿𝗲𝗮𝗱𝗼𝗿: 𝙺𝙰𝚁𝙸𝙼-𝙾𝙵𝙵⚡
 
-## `🐉𝕷𝖚𝖈𝖐𝖞 𝕭𝖔𝖙 𝕸𝕯` 
+## `🍆𝕿𝖗𝖆𝖌𝖆𝕾𝖊𝖒𝖊𝖓-𝕭𝖔𝖙` 
 <p align="center">
 <img src="https://telegra.ph/file/4f89062d9ce497338b9e2.jpg" alt="DylanBot-MD" width="900"/>
 </p>
@@ -10,7 +10,7 @@
 
 
 
-### `● 🐲𝑳𝒖𝒄𝒌𝒚-𝑩𝒐𝒕-𝑴𝑫🐲 ●`
+### `● 🍆𝑻𝒓𝒂𝒈𝒂𝑺𝒆𝒎𝒆𝒏-𝑩𝒐𝒕🍆 ●`
 <a href="https://api.whatsapp.com/send/?phone=59160270345&text=/estado&type=phone_number&app_absent=0" target="blank"><img src="https://img.shields.io/badge/BOT_OFICIAL-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
 
 😃𝗦𝗜 𝗡𝗢 𝗥𝗘𝗦𝗣𝗢𝗡𝗗𝗘 𝗘𝗦 𝗣𝗢𝗥 𝗤𝗨𝗘 𝗘𝗟 𝗡𝗨𝗠𝗘𝗥𝗢 𝗘𝗦𝗧𝗔 𝗘𝗡 𝗦𝗢𝗣𝗢𝗥𝗧𝗘 𝗬 𝗘𝗡 𝗘𝗦𝗘 𝗖𝗔𝗦𝗢 𝗛𝗔𝗕𝗟𝗘 𝗖𝗢𝗡 𝗘𝗟 𝗦𝗧𝗔𝗙𝗙💖
