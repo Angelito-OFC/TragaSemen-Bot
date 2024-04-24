@@ -1,5 +1,5 @@
 {
-  "name": "LuckyBot-MD",
+  "name": "TragaSemen-Bot",
   "version": "1.0.0",
   "description": "Sigueme en ig @usxr_angelito",
   "main": "index.js",
@@ -16,16 +16,16 @@
     "eslint": "eslint .",
     "eslintfix": "eslint --fix ."
   },
-  "homepage": "https://github.com/Karim-off/LuckyBot-MD",
+  "homepage": "https://github.com/Karim-off/TragaSemen-Bot",
   "author": {
     "name": "Angelito"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Karim-off/LuckyBot-MD.git"
+    "url": "git+https://github.com/Karim-off/TragaSemen-Bot.git"
   },
   "bugs": {
-    "url": "https://github.com/Karim-off/LuckyBot-MD/issues"
+    "url": "https://github.com/Karim-off/TragaSemen-Bot/issues"
   },
   "license": "GPL-3.0-or-later",
   "dependencies": {
