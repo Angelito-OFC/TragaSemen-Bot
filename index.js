@@ -13,7 +13,7 @@ const {name, author} = require(join(__dirname, './package.json'));
 const {say} = cfonts;
 const rl = createInterface(process.stdin, process.stdout);
 
-say('Lucky\nBot\nMD', {
+say('Traga\nSemen\nBot', {
   font: 'chrome',
   align: 'center',
   gradient: ['red', 'magenta']});
@@ -32,7 +32,7 @@ function start(file) {
   isRunning = true;
   const args = [join(__dirname, file), ...process.argv.slice(2)];
 
-  /** say('[ 🐉 ] Escanea el código QR o introduce el código de emparejamiento en WhatsApp.', {
+  /** say('[ 🍆 ] Escanea el código QR o introduce el código de emparejamiento en WhatsApp.', {
     font: 'console',
     align: 'center',
     gradient: ['red', 'magenta']}); **/
