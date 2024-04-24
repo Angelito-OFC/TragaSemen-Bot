@@ -1,4 +1,4 @@
-console.log('[ 🐉 ] Iniciando LuckyBot-MD...');
+console.log('[ 🍆 ] Iniciando TragaSemen-Bot...');
 import {join, dirname} from 'path';
 import {createRequire} from 'module';
 import {fileURLToPath} from 'url';
