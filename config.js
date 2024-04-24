@@ -10,16 +10,16 @@ import moment from 'moment-timezone';
 global.botnumber = ""
 
 global.owner = [
-  ['59168683798', '🤴 𝑳𝒖𝒄𝒌𝒚𝑩𝒐𝒕-𝑴𝑫 🐉 - Creador 🤴', true],
-  ['523131937695', '🤴 𝑳𝒖𝒄𝒌𝒚𝑩𝒐𝒕-𝑴𝑫 🐉', true],
-  ['', '💫 𝑳𝒖𝒄𝒌𝒚𝑩𝒐𝒕-𝑴𝑫 🐉', true],
-  ['', '💫 𝑳𝒖𝒄𝒌𝒚𝑩𝒐𝒕-𝑴𝑫 🐉', true],
-  ['', '💫 𝑳𝒖𝒄𝒌𝒚𝑩𝒐𝒕-𝑴𝑫 🐉', true],
-  ['', '💫 𝑳𝒖𝒄𝒌𝒚𝑩𝒐𝒕-𝑴𝑫 🐉', true],
-  ['', '💫 𝑳𝒖𝒄𝒌𝒚𝑩𝒐𝒕-𝑴𝑫 🐉', true],
-  ['', '💫 𝑳𝒖𝒄𝒌𝒚𝑩𝒐𝒕-𝑴𝑫 🐉', false],
-  ['', '💫 𝑳𝒖𝒄𝒌𝒚𝑩𝒐𝒕-𝑴𝑫 🐉', true],
-  ['', '💫 𝑳𝒖𝒄𝒌𝒚𝑩𝒐𝒕-𝑴𝑫 🐉', true],
+  ['59894647611', '🤴 𝑻𝒓𝒂𝒈𝒂𝑺𝒆𝒎𝒆𝒏-𝑩𝒐𝒕 🍆- Creador 🤴', true],
+  ['59168683798', '🤴 𝑻𝒓𝒂𝒈𝒂𝑺𝒆𝒎𝒆𝒏-𝑩𝒐𝒕 🍆', true],
+  ['', '💫 𝑻𝒓𝒂𝒈𝒂𝑺𝒆𝒎𝒆𝒏-𝑩𝒐𝒕 🍆', true],
+  ['', '💫 𝑻𝒓𝒂𝒈𝒂𝑺𝒆𝒎𝒆𝒏-𝑩𝒐𝒕 🍆', true],
+  ['', '💫 𝑻𝒓𝒂𝒈𝒂𝑺𝒆𝒎𝒆𝒏-𝑩𝒐𝒕 🍆', true],
+  ['', '💫 𝑻𝒓𝒂𝒈𝒂𝑺𝒆𝒎𝒆𝒏-𝑩𝒐𝒕 🍆', true],
+  ['', '💫 𝑻𝒓𝒂𝒈𝒂𝑺𝒆𝒎𝒆𝒏-𝑩𝒐𝒕 🍆', true],
+  ['', '💫 𝑻𝒓𝒂𝒈𝒂𝑺𝒆𝒎𝒆𝒏-𝑩𝒐𝒕 🍆', false],
+  ['', '💫 𝑻𝒓𝒂𝒈𝒂𝑺𝒆𝒎𝒆𝒏-𝑩𝒐𝒕 🍆', true],
+  ['', '💫 𝑻𝒓𝒂𝒈𝒂𝑺𝒆𝒎𝒆𝒏-𝑩𝒐𝒕 🍆', true],
   [''],
   [''],
   [''],
@@ -37,16 +37,16 @@ global.owner = [
   ['']
 ];
 
-global.suittag = ['59168683798'];
-global.prems = ['59168683798'];
+global.suittag = ['59894647611'];
+global.prems = ['59894647611'];
 
 global.packname = '𝑻𝒐𝒎𝒂  𝑺𝒕𝒊𝒄𝒌𝒆𝒓';
-global.author = '𝑳𝒖𝒄𝒌𝒚𝑩𝒐𝒕-𝑴𝑫 🐲';
-global.wm = '𝑳𝒖𝒄𝒌𝒚𝑩𝒐𝒕-𝑴𝑫 🐲';
-global.titulowm = '𝑳𝒖𝒄𝒌𝒚𝑩𝒐𝒕-𝑴𝑫 🐲';
-global.titulowm2 = `𝑳𝒖𝒄𝒌𝒚𝑩𝒐𝒕-𝑴𝑫 🐲`
-global.igfg = '𝑳𝒖𝒄𝒌𝒚𝑩𝒐𝒕-𝑴𝑫 🐲';
-global.wait = '🐲 𝑪𝒂𝒓𝒈𝒂𝒏𝒅𝒐...';
+global.author = '𝑻𝒓𝒂𝒈𝒂𝑺𝒆𝒎𝒆𝒏-𝑩𝒐𝒕 🍆';
+global.wm = '𝑻𝒓𝒂𝒈𝒂𝑺𝒆𝒎𝒆𝒏-𝑩𝒐𝒕 🍆';
+global.titulowm = '𝑻𝒓𝒂𝒈𝒂𝑺𝒆𝒎𝒆𝒏-𝑩𝒐𝒕 🍆';
+global.titulowm2 = `𝑻𝒓𝒂𝒈𝒂𝑺𝒆𝒎𝒆𝒏-𝑩𝒐𝒕 🍆`
+global.igfg = '𝑻𝒓𝒂𝒈𝒂𝑺𝒆𝒎𝒆𝒏-𝑩𝒐𝒕 🍆';
+global.wait = '🍆 𝑪𝒂𝒓𝒈𝒂𝒏𝒅𝒐...';
 
 global.imagen1 = fs.readFileSync('./Menu2.jpg');
 global.imagen2 = fs.readFileSync('./src/nuevobot.jpg');
@@ -68,15 +68,15 @@ global.mes = d.toLocaleDateString('es', {month: 'long'});
 global.año = d.toLocaleDateString('es', {year: 'numeric'});
 global.tiempo = d.toLocaleString('en-US', {hour: 'numeric', minute: 'numeric', second: 'numeric', hour12: true});
 //* ****************************
-global.wm2 = `${dia} ${fecha}\n𝑳𝒖𝒄𝒌𝒚𝑩𝒐𝒕-𝑴𝑫 🐲`;
-global.gt = '𝑳𝒖𝒄𝒌𝒚𝑩𝒐𝒕-𝑴𝑫 🐲';
-global.mysticbot = '𝑳𝒖𝒄𝒌𝒚𝑩𝒐𝒕-𝑴𝑫 🐲';
-global.md = 'https://chat.whatsapp.com/LcFTUnvu0Tw1tCnA2ybdR6';
-global.mysticbot = 'https://chat.whatsapp.com/LcFTUnvu0Tw1tCnA2ybdR6';
-global.waitt = '🐲 𝑪𝒂𝒓𝒈𝒂𝒏𝒅𝒐...';
-global.waittt = '🐲 𝑪𝒂𝒓𝒈𝒂𝒏𝒅𝒐...';
-global.waitttt = '🐲 𝑪𝒂𝒓𝒈𝒂𝒏𝒅𝒐...';
-global.nomorown = '59168683798';
+global.wm2 = `${dia} ${fecha}\n𝑻𝒓𝒂𝒈𝒂𝑺𝒆𝒎𝒆𝒏-𝑩𝒐𝒕 🍆`;
+global.gt = '𝑻𝒓𝒂𝒈𝒂𝑺𝒆𝒎𝒆𝒏-𝑩𝒐𝒕 🍆';
+global.mysticbot = '𝑻𝒓𝒂𝒈𝒂𝑺𝒆𝒎𝒆𝒏-𝑩𝒐𝒕 🍆';
+global.md = 'https://www.instagram.com/usxr_angelito/';
+global.mysticbot = 'https://www.instagram.com/usxr_angelito/';
+global.waitt = '🍆 𝑪𝒂𝒓𝒈𝒂𝒏𝒅𝒐...';
+global.waittt = '🍆 𝑪𝒂𝒓𝒈𝒂𝒏𝒅𝒐...';
+global.waitttt = '🍆 𝑪𝒂𝒓𝒈𝒂𝒏𝒅𝒐...';
+global.nomorown = '59894647611';
 global.pdoc = ['application/vnd.openxmlformats-officedocument.presentationml.presentation', 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet', 'application/vnd.openxmlformats-officedocument.wordprocessingml.document', 'application/vnd.ms-excel', 'application/msword', 'application/pdf', 'text/rtf'];
 global.cmenut = '❖––––––『';
 global.cmenub = '┊✦ ';
