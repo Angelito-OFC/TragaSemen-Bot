@@ -359,7 +359,55 @@ handler.all = async function(m, {conn}) {
     mconn.conn.sendPresenceUpdate('recording', m.chat);
     mconn.conn.sendMessage(m.chat, {audio: {url: vn}, fileName: 'error.mp3', mimetype: 'audio/mpeg', ptt: true}, {quoted: m});
   }
-  
+   
+  if (!chat.isBanned && m.text.match(/(traka)/gi)) {
+    if (!db.data.chats[m.chat].audios) return;
+    if (!db.data.settings[mconn.conn.user.jid].audios_bot && !m.isGroup) return;
+    const vn = './media/traka.mp3';
+    mconn.conn.sendPresenceUpdate('recording', m.chat);
+    mconn.conn.sendMessage(m.chat, {audio: {url: vn}, fileName: 'error.mp3', mimetype: 'audio/mpeg', ptt: true}, {quoted: m});
+  }
+
+  if (!chat.isBanned && m.text.match(/(manco)/gi)) {
+    if (!db.data.chats[m.chat].audios) return;
+    if (!db.data.settings[mconn.conn.user.jid].audios_bot && !m.isGroup) return;
+    const vn = './media/manco.mp3';
+    mconn.conn.sendPresenceUpdate('recording', m.chat);
+    mconn.conn.sendMessage(m.chat, {audio: {url: vn}, fileName: 'error.mp3', mimetype: 'audio/mpeg', ptt: true}, {quoted: m});
+  }
+
+  if (!chat.isBanned && m.text.match(/(turip)/gi)) {
+    if (!db.data.chats[m.chat].audios) return;
+    if (!db.data.settings[mconn.conn.user.jid].audios_bot && !m.isGroup) return;
+    const vn = './media/turip.mp3';
+    mconn.conn.sendPresenceUpdate('recording', m.chat);
+    mconn.conn.sendMessage(m.chat, {audio: {url: vn}, fileName: 'error.mp3', mimetype: 'audio/mpeg', ptt: true}, {quoted: m});
+  }
+
+  if (!chat.isBanned && m.text.match(/(himno potaxie)/gi)) {
+    if (!db.data.chats[m.chat].audios) return;
+    if (!db.data.settings[mconn.conn.user.jid].audios_bot && !m.isGroup) return;
+    const vn = './media/himno-potaxie.mp3';
+    mconn.conn.sendPresenceUpdate('recording', m.chat);
+    mconn.conn.sendMessage(m.chat, {audio: {url: vn}, fileName: 'error.mp3', mimetype: 'audio/mpeg', ptt: true}, {quoted: m});
+  }
+
+  if (!chat.isBanned && m.text.match(/(pobre perra)/gi)) {
+    if (!db.data.chats[m.chat].audios) return;
+    if (!db.data.settings[mconn.conn.user.jid].audios_bot && !m.isGroup) return;
+    const vn = './media/hay-pobre-perra.mp3';
+    mconn.conn.sendPresenceUpdate('recording', m.chat);
+    mconn.conn.sendMessage(m.chat, {audio: {url: vn}, fileName: 'error.mp3', mimetype: 'audio/mpeg', ptt: true}, {quoted: m});
+  }
+
+  if (!chat.isBanned && m.text.match(/(miau)/gi)) {
+    if (!db.data.chats[m.chat].audios) return;
+    if (!db.data.settings[mconn.conn.user.jid].audios_bot && !m.isGroup) return;
+    const vn = './media/miau.mp3';
+    mconn.conn.sendPresenceUpdate('recording', m.chat);
+    mconn.conn.sendMessage(m.chat, {audio: {url: vn}, fileName: 'error.mp3', mimetype: 'audio/mpeg', ptt: true}, {quoted: m});
+  }
+ 
 
   return !0;
 };
