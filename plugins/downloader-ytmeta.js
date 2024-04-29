@@ -19,11 +19,11 @@ const extract = (await ytdl.getBasicInfo(text)).videoDetails.title;
     genre: s.meta.category || "-",
     comment: {
       language: "spa",
-      text: '🤴🏻 Descarga por angelito & Lucky-Bot-MD 🤖',
+      text: '🤴🏻 Descarga por angelito & TragaSemen-Bot-MD 🤖',
     },
     unsynchronisedLyrics: {
       language: "spa",
-      text: '🤴🏻 Descarga por angelito & Lucky-Bot-MD 🤖',
+      text: '🤴🏻 Descarga por angelito & TragaSemen-Bot-MD 🤖',
     },
     image: {
       mime: "image/jpeg",
