@@ -512,7 +512,7 @@ setInterval(async () => {
   if (stopped === 'close' || !conn || !conn.user) return;
   const _uptime = process.uptime() * 1000;
   const uptime = clockString(_uptime);
-  const bio = `፧፧ TRAGA SEMEN 🧸 ፧፧ 𝒎𝒂𝒙𝒊𝒎𝒂 𝒑𝒐𝒕𝒆𝒏𝒄𝒊𝒂🧸 ፧፧ 𝒑𝒓𝒐𝒑𝒊𝒆𝒕𝒂𝒓𝒊𝒐 𝑰𝒏𝒔𝒕𝒂𝒈𝒓𝒂𝒎: @`;
+  const bio = `🚀 𝙏𝙧𝙖𝙜𝙖𝙎𝙚𝙢𝙚𝙣 ⦙⦙ 💻 𝙈𝙖𝙭𝙞𝙢𝙪𝙣 𝙋𝙤𝙬𝙚𝙧 𝙊𝙉𝙇𝙄𝙉𝙀 ${uptime}`;
   await conn.updateProfileStatus(bio).catch((_) => _);
 }, 60000);
 function clockString(ms) {
