@@ -96,8 +96,8 @@ if (methodCode && !conn.authState.creds.registered) {
     setTimeout(async () => {
         let codeBot = await conn.requestPairingCode(cleanedNumber);
         codeBot = codeBot?.match(/.{1,4}/g)?.join("-") || codeBot;
-         //parent.sendFile(m.chat, 'https://i.ibb.co/SKKdvRb/code.jpg', 'qrcode.png', `➤ Code: *${codeBot}*\n\n${mssg.botqr}`, m)
-         parent.sendButton2(m.chat, `➤ Code: *${codeBot}*\n\n${mssg.botqr}`, mssg.ig, 'https://i.ibb.co/SKKdvRb/code.jpg', [], codeBot, null, m) 
+         //parent.sendFile(m.chat, 'https://i.ibb.co/SKKdvRb/code.jpg', 'qrcode.png', `➤ Code: *${codeBot}*\n\n${smsx.botqr}`, m)
+         parent.sendButton2(m.chat, `➤ Code: *${codeBot}*\n\n${smsx.botqr}`, smsx.ig, 'https://i.ibb.co/SKKdvRb/code.jpg', [], codeBot, null, m) 
         rl.close();
     }, 3000);
 }
@@ -112,7 +112,7 @@ async function connectionUpdate(update) {
     if (isNewLogin) conn.isInit = true
     // scan qr
    /* if (qr) {
-      let scan = await parent.sendFile(m.chat, await qrcode.toDataURL(qr, { scale: 8 }), 'qrcode.png', `${mssg.botqr}`, m)
+      let scan = await parent.sendFile(m.chat, await qrcode.toDataURL(qr, { scale: 8 }), 'qrcode.png', `${smsx.botqr}`, m)
   setTimeout(() => {
     parent.sendMessage(m.chat, { delete: scan.key })
   }, 50000) //50 segundos
