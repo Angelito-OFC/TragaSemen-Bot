@@ -51,7 +51,7 @@ export async function before(m, {conn}) {
     await this.sendMessage(
       m.chat,
       {
-        text: `_.💜@${m.messageStubParameters[0].split`@`[0]}Es admin del grupo_\n\n_. 💜Le dio admin :_  _${usuario}_`,
+        text: `💜@${m.messageStubParameters[0].split`@`[0]}𝘼𝙝𝙤𝙧𝙖 𝙚𝙨 𝙖𝙙𝙢𝙞𝙣\n🍆𝙂𝙧𝙪𝙥𝙤:\n🍆 𝘼𝙘𝙘𝙞𝙤𝙣 𝙧𝙚𝙖𝙡𝙞𝙯𝙖𝙙𝙖 𝙥𝙤𝙧 :_  _${usuario}`,
         mentions: [`${m.sender}`, `${m.messageStubParameters[0]}`],
       },
       {quoted: fkontak}
