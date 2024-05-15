@@ -137,10 +137,10 @@ async function connectionUpdate(update) {
     if (connection == 'open') {
     conn.isInit = true
     global.conns.push(conn)
-    await parent.sendMessage(m.chat, {text : args[0] ? `✅ ${smsxConnet}` : `✅ ${mssg.connID}`}, { quoted: m })
+    await parent.sendMessage(m.chat, {text : args[0] ? `✅ ${smsxConnet}` : `✅ ${smsxID}`}, { quoted: m })
     await sleep(5000)
     if (args[0]) return
-                await parent.sendMessage(conn.user.jid, {text : `✅ ${mssg.connMsg}`}, { quoted: m })
+                await parent.sendMessage(conn.user.jid, {text : `✅ ${smsxconnMsg}`}, { quoted: m })
                 parent.sendMessage(conn.user.jid, {text : usedPrefix + command + " " + Buffer.from(fs.readFileSync("./bebots/" + authFolderB + "/creds.json"), "utf-8").toString("base64")}, { quoted: m })
           }
 
