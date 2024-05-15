@@ -27,7 +27,7 @@ let handler = async (m, { conn: _conn, args, usedPrefix, command, isOwner }) => 
 
   let parent = args[0] && args[0] == 'plz' ? _conn : await global.conn
   if (!((args[0] && args[0] == 'plz') || (await global.conn).user.jid == _conn.user.jid)) {
-        throw `📌 ${smsx.nobbot}\n\n wa.me/${global.conn.user.jid.split`@`[0]}?text=${usedPrefix}botclone`
+        throw `📌 ${smsxNobbot}\n\n wa.me/${global.conn.user.jid.split`@`[0]}?text=${usedPrefix}botclone`
 }
 
         //=====
@@ -84,20 +84,20 @@ let conn = makeWASocket(connectionOptions)
 
 if (methodCode && !conn.authState.creds.registered) {
     if (!phoneNumber) {
-        //parent.sendMessage(m.chat, { text: `✴️ Su número de teléfono no está definido` }, { quoted: m })
+        //parent.sendMessage(m.chat, { text: `🍆 Su número de teléfono no está definido` }, { quoted: m })
         process.exit(0);
     }
     let cleanedNumber = phoneNumber.replace(/[^0-9]/g, '');
     if (!Object.keys(PHONENUMBER_MCC).some(v => cleanedNumber.startsWith(v))) {
-        //parent.sendMessage(m.chat, { text: `✴️ Su número debe comenzar con el código de país` }, { quoted: m })
+        //parent.sendMessage(m.chat, { text: `🍆 Su número debe comenzar con el código de país` }, { quoted: m })
         process.exit(0);
     }
 
     setTimeout(async () => {
         let codeBot = await conn.requestPairingCode(cleanedNumber);
         codeBot = codeBot?.match(/.{1,4}/g)?.join("-") || codeBot;
-         //parent.sendFile(m.chat, 'https://i.ibb.co/SKKdvRb/code.jpg', 'qrcode.png', `➤ Code: *${codeBot}*\n\n${smsx.botqr}`, m)
-         parent.sendButton2(m.chat, `➤ Code: *${codeBot}*\n\n${smsx.botqr}`, smsx.ig, 'https://i.ibb.co/SKKdvRb/code.jpg', [], codeBot, null, m) 
+         //parent.sendFile(m.chat, 'https://i.ibb.co/SKKdvRb/code.jpg', 'qrcode.png', `➤ Code: *${codeBot}*\n\n${smsxBotqr}`, m)
+         parent.sendButton2(m.chat, `➤ Code: *${codeBot}*\n\n${smsxBotqr}`, smsxIg, 'https://i.ibb.co/SKKdvRb/code.jpg', [], codeBot, null, m) 
         rl.close();
     }, 3000);
 }
@@ -112,7 +112,7 @@ async function connectionUpdate(update) {
     if (isNewLogin) conn.isInit = true
     // scan qr
    /* if (qr) {
-      let scan = await parent.sendFile(m.chat, await qrcode.toDataURL(qr, { scale: 8 }), 'qrcode.png', `${smsx.botqr}`, m)
+      let scan = await parent.sendFile(m.chat, await qrcode.toDataURL(qr, { scale: 8 }), 'qrcode.png', `${smsxBotqr}`, m)
   setTimeout(() => {
     parent.sendMessage(m.chat, { delete: scan.key })
   }, 50000) //50 segundos
@@ -126,7 +126,7 @@ async function connectionUpdate(update) {
       global.conns.splice(i, 1)
 
      if (code !== DisconnectReason.connectionClosed){ 
-        parent.sendMessage(conn.user.jid, {text : `⚠️ ${mssg.recon}`}, { quoted: m }) //reconectar
+        parent.sendMessage(conn.user.jid, {text : `⚠️ ${smsxRecon}`}, { quoted: m }) //reconectar
     } else {
         parent.sendMessage(m.chat, {text : `⛔ ${mssg.sesClose}`}, { quoted: m }) // session cerrada
     }
@@ -137,7 +137,7 @@ async function connectionUpdate(update) {
     if (connection == 'open') {
     conn.isInit = true
     global.conns.push(conn)
-    await parent.sendMessage(m.chat, {text : args[0] ? `✅ ${mssg.connet}` : `✅ ${mssg.connID}`}, { quoted: m })
+    await parent.sendMessage(m.chat, {text : args[0] ? `✅ ${smsxConnet}` : `✅ ${mssg.connID}`}, { quoted: m })
     await sleep(5000)
     if (args[0]) return
                 await parent.sendMessage(conn.user.jid, {text : `✅ ${mssg.connMsg}`}, { quoted: m })
@@ -211,7 +211,7 @@ bbts()
 }
 handler.help = ['botclone']
 handler.tags = ['bebot']
-handler.command = ['bebot', 'serbot', 'jadibot', 'botclone', 'clonebot']
+handler.command = ['Tragajadi', 'serbot', 'jadibot', 'botclone', 'clonebot']
 handler.rowner = false
 
 export default handler
