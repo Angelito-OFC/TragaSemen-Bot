@@ -16,7 +16,7 @@ export async function before(m, {conn}) {
   if (m.messageStubType == 21) {
     await this.sendMessage(
       m.chat,
-      {text: `_.🎌${usuario} Cambio el nombre  del grupo a :_\n\n_${m.messageStubParameters[0]}_`, mentions: [m.sender]},
+      {text: `_.🍆${usuario} Cambio el nombre  del grupo a :_\n\n_${m.messageStubParameters[0]}_`, mentions: [m.sender]},
       {quoted: fkontak}
     );
   } else if (m.messageStubType == 22) {
