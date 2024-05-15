@@ -73,6 +73,7 @@ global.wm2 = `${dia} ${fecha}\n𝑻𝒓𝒂𝒈𝒂𝑺𝒆𝒎𝒆𝒏-𝑩𝒐
 global.gt = '𝑻𝒓𝒂𝒈𝒂𝑺𝒆𝒎𝒆𝒏-𝑩𝒐𝒕 🍆';
 global.mysticbot = '𝑻𝒓𝒂𝒈𝒂𝑺𝒆𝒎𝒆𝒏-𝑩𝒐𝒕 🍆';
 global.md = 'https://www.instagram.com/bxll.02/';
+global.xbcanal = 'https://whatsapp.com/channel/0029VaJxgcB0bIdvuOwKTM2Y';
 global.mysticbot = 'https://www.instagram.com/bxll.02/';
 global.waitt = '🍆 𝑪𝒂𝒓𝒈𝒂𝒏𝒅𝒐...';
 global.waittt = '🍆 𝑪𝒂𝒓𝒈𝒂𝒏𝒅𝒐...';
